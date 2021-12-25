@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="IconLabelView">
+        <attr name="dora_icon" format="reference" />
+        <attr name="dora_iconScaleX" format="fraction"/>
+        <attr name="dora_iconScaleY" format="fraction"/>
+        <attr name="dora_text" format="string|reference" />
+        <attr name="dora_textColor" format="color|reference" />
+        <attr name="dora_hoverColor" format="color|reference" />
+        <attr name="dora_textSize" format="dimension|reference" />
+        <attr name="dora_iconLabelGap" format="dimension|reference"/>
+        <attr name="dora_ratio" format="fraction"/>
+    </declare-styleable>
+</resources>

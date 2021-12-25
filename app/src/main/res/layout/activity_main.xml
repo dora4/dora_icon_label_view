@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <dora.widget.IconLabelView
+        android:id="@+id/iconLabelViewOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:dora_text="@string/app_name"
+        app:dora_textColor="@color/teal_200"
+        app:dora_textSize="15sp"
+        app:dora_iconLabelGap="20dp"
+        app:dora_icon="@mipmap/ic_launcher"
+        app:dora_iconScaleX="50%"
+        app:dora_iconScaleY="50%"
+        app:dora_hoverColor="#FFF"
+        android:padding="30dp"
+        android:background="@color/black"/>
+    <dora.widget.IconLabelView
+        android:id="@+id/iconLabelViewTwo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:dora_text="@string/app_name"
+        app:dora_textColor="@color/teal_200"
+        app:dora_textSize="15sp"
+        app:dora_iconLabelGap="20dp"
+        app:dora_icon="@mipmap/ic_launcher"
+        app:dora_iconScaleX="50%"
+        app:dora_iconScaleY="50%"
+        app:dora_hoverColor="@color/black"
+        android:padding="30dp"
+        android:background="#999"/>
+    <dora.widget.IconLabelView
+        android:id="@+id/iconLabelViewThree"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:dora_text="@string/app_name"
+        app:dora_textColor="@color/teal_200"
+        app:dora_textSize="15sp"
+        app:dora_iconLabelGap="20dp"
+        app:dora_icon="@mipmap/ic_launcher"
+        app:dora_iconScaleX="50%"
+        app:dora_iconScaleY="50%"
+        app:dora_hoverColor="#FFF"
+        app:dora_ratio="100%"
+        android:padding="30dp"
+        android:background="@color/black"/>
+</LinearLayout>
